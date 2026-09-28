@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aion2 Spawn Checklist</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Aion2 Spawn Checklist</h1>
+  <div id="faction-switch">
+    <button class="faction-btn" data-faction="asmodians">Asmodians</button>
+    <button class="faction-btn" data-faction="elyos">Elyos</button>
+  </div>
+  <div id="progress">
+    <div id="progress-bar"><div id="progress-fill"></div></div>
+    <span id="progress-text">0 / 0 done</span>
+  </div>
+  <button id="reset-btn">Reset checklist</button>
+</header>
+
+<main id="groups"></main>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
